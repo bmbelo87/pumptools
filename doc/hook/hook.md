@@ -43,11 +43,11 @@ apt-get update && apt-get install -y \
     gcc-multilib \
     libc6-dev-i386 \
     libusb-1.0-0:i386 \
-    libusb:i386 \
-    libasound2:i386 \
-    libconfig++:i386 \
-    libx11:i386 \
-    libcurl4-gnutls:i386
+    libusb-dev:i386 \
+    libasound2-dev:i386 \
+    libconfig++-dev:i386 \
+    libx11-dev:i386 \
+    libcurl4-gnutls-dev:i386
 ```
 
 Further game version specific dependencies and how to set these up is outlined in
